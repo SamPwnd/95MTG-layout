@@ -18,7 +18,7 @@
 	                        "**/style.scss",
 	                ],
 	                "liveSassCompile.settings.generateMap": false,
-	                "liveSassCompile.settings.showOutputWindow": true
+	                "liveSassCompile.settings.showOutputWindow": false
 	        }
 	}
 	

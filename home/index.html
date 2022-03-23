@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Home</title>
+</head>
+<body>
+    <header>
+        <img class="header__logo" src="../assets/logo-nero-1.png" alt="logo">
+
+        <div class="header__search-bar">
+            <select class="search-bar__filter" name="filter-search" >
+                <option value="All categories" selected>All categories</option>
+            </select>
+            <input class="search-bar__text" type="text" name="search" id="search" placeholder="Search">
+            <button class="search-bar__btn" type="submit">
+                <img src="../assets/search.png" alt="search-icon">
+            </button>
+        </div>
+
+        <div class="header__login">
+            <p class="login__text">Hello, Sign in</p>
+            <a class="login__link" href="#">Account</a>
+        </div>
+
+        <img class="header__cart-icon" src="../assets/cart.png" alt="cart">
+    </header>
+
+    <nav>
+        <a class="nav__link nav__link--first" href="#">CARDS</a>
+        <a class="nav__link" href="#">BOOSTERS</a>
+        <a class="nav__link" href="#">BOOSTER BOXES</a>
+        <a class="nav__link" href="#">SEALED PRODUCTS</a>
+        <a class="nav__link" href="#">ACCESSORIES</a>
+    </nav>
+
+    <aside>
+        <div class="aside-text">
+            <h2 class="aside-text__title">CORE SET 2020 NOW AVAILABLE</h2>
+            <p class="aside-text__subtitle">There’s never been a better time to start playng Magic!</p>
+            <button class="aside-text__btn">BUY NOW</button>
+        </div>
+        <div class="aside__gradient"></div>
+        <div class="dots">
+            <div class="dots__dot"></div>
+            <div class="dots__dot dots__dot--selected"></div>
+            <div class="dots__dot"></div>
+        </div>
+    </aside>
+
+    <main>
+        <section class="cards-section">
+            <div class="section__head">
+                <p class="section__title">Deal</p>
+                <a class="section__link" href="#">See all</a>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards1.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Gideon Blackblade: war of the spark (ENG)</p>
+                    <p class="card-text__type">CARDS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <img src="../assets/heart.png" alt="cuore">
+                        <img src="../assets/done.png" alt="spunta">
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
