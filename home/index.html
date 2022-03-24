@@ -16,7 +16,7 @@
                 <option value="All categories" selected>All categories</option>
             </select>
             <input class="search-bar__text" type="text" name="search" id="search" placeholder="Search">
-            <button class="search-bar__btn" type="submit">
+            <button class="input-btn" type="submit">
                 <img src="../assets/search.png" alt="search-icon">
             </button>
         </div>
@@ -41,10 +41,10 @@
         <div class="aside-text">
             <h2 class="aside-text__title">CORE SET 2020 NOW AVAILABLE</h2>
             <p class="aside-text__subtitle">There’s never been a better time to start playng Magic!</p>
-            <button class="aside-text__btn">BUY NOW</button>
+            <button class="btn">BUY NOW</button>
         </div>
         <div class="aside__gradient"></div>
-        <div class="dots">
+        <div class="dots dots--align-self">
             <div class="dots__dot"></div>
             <div class="dots__dot dots__dot--selected"></div>
             <div class="dots__dot"></div>
@@ -52,12 +52,11 @@
     </aside>
 
     <main>
+        <div class="section__head">
+            <p class="section__title">Deal</p>
+            <a class="section__link" href="#">See all</a>
+        </div>
         <section class="cards-section">
-            <div class="section__head">
-                <p class="section__title">Deal</p>
-                <a class="section__link" href="#">See all</a>
-            </div>
-
             <div class="card">
                 <div class="card-img">
                     <img src="../assets/cards1.png" alt="carta">
@@ -70,8 +69,88 @@
 
                 <div class="card-footer">
                     <div class="card-footer__icons">
-                        <img src="../assets/heart.png" alt="cuore">
-                        <img src="../assets/done.png" alt="spunta">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>
+                        <div class="card-footer__check-icon">
+                            <img class="card-footer__check-full-icon" src="../assets/done.png" alt="spunta">
+                        </div>
+                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards2.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster: war of the spark (ITA)</p>
+                    <p class="card-text__type">BOOSTERS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards3.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster Box: war of the spark (ENG)</p>
+                    <p class="card-text__type">BOOSTER BOXES</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards4.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Duel Deck: Elves Vs. Inventors (ITA)</p>
+                    <p class="card-text__type">DECKS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="check-icon_full check-icon_full--selected" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
                     </div>
 
                     <div class="card-footer__price">
@@ -81,6 +160,362 @@
                 </div>
             </div>
         </section>
+
+        <div class="dots">
+            <div class="dots__dot"></div>
+            <div class="dots__dot dots__dot--selected"></div>
+            <div class="dots__dot"></div>
+        </div>
+
+        <div class="section__head">
+            <p class="section__title">ARTICLES</p>
+            <a class="section__link" href="#">See all</a>
+        </div>
+        <section class="articles-section">
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article1.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article2.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article3.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article4.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article5.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+
+            <div class="article-card">
+                <img class="article-card__img" src="../assets/article6.png" alt="article-img">
+
+                <div class="article-card__txt">
+                    <p class="article-card__tag">TAG | TAG | TAG</p>
+                    <p class="article-card__title">There’s never been a better time to start playng Magic!</p>
+                    <p class="article-card__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor. </p>
+                    <p class="article-card__date">07 / 12 / 2019</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="section__head">
+            <p class="section__title">Evidence</p>
+            <a class="section__link" href="#">See all</a>
+        </div>
+
+        <section class="cards-section">
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards1.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Gideon Blackblade: war of the spark (ENG)</p>
+                    <p class="card-text__type">CARDS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>
+                        <div class="card-footer__check-icon">
+                            <img class="check-icon__border" src="../assets/done-border.png" alt="bordi spunta">
+                            <img class="check-icon__full" src="../assets/done.png" alt="spunta">
+                        </div>
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards2.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster: war of the spark (ITA)</p>
+                    <p class="card-text__type">BOOSTERS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__full-white favorite-icon__full-white--selected" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                               
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards3.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster Box: war of the spark (ENG)</p>
+                    <p class="card-text__type">BOOSTER BOXES</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards4.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Duel Deck: Elves Vs. Inventors (ITA)</p>
+                    <p class="card-text__type">DECKS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>     
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="dots">
+            <div class="dots__dot"></div>
+            <div class="dots__dot dots__dot--selected"></div>
+            <div class="dots__dot"></div>
+        </div>
+
+        <div class="section__head">
+            <p class="section__title">Sets</p>
+            <a class="section__link" href="#">See all</a>
+        </div>
+        <section class="sets-section">
+
+            <div class="main-set-card">
+                <div class="set-card">
+                    <img class="set-card__img" src="../assets/set1.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set1.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">Core Set 2020</p>
+                            <p class="set-card__date">JULY, 2019</p>
+                        </div>
+                        <button class="btn btn--right">BUY NOW</button>
+                    </div>
+                </div>
+            </div>
+            <div class="set-cards">
+                <div class="set-card">
+                    <img class="set-card__img" src="../assets/set2.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set2.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">Modern Horizons</p>
+                            <p class="set-card__date">JUNE, 2019</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="set-card">
+                    <img class="set-card__img" src="../assets/set3.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set3.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">War Of The Spark</p>
+                            <p class="set-card__date">MAY, 2019</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="set-card">
+                    <img class="set-card__img" src="../assets/set4.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set4.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">Ravnica Allegiance</p>
+                            <p class="set-card__date">JANUARY, 2019</p>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="set-card">
+                    <img class="set-card__img" src="../assets/set5.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set5.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">Guilds Of Ravnica</p>
+                            <p class="set-card__date">OCTOBER, 2019</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <div class="section__head">
+            <p class="section__title">Upcoming Event</p>
+            <a class="section__link" href="#">See all</a>
+        </div>
+        <section class="event-section">
+            <div class="event-card">
+                <img src="../assets/event1.png" alt="evento">
+                <div class="event-card__txt">
+                    <p class="event-card__title">SCG Con Roanoke</p>
+                    <p class="event-card__subtitle">Come to visit our booth from 25 to 28 July!</p>
+                </div>
+            </div>
+
+            <div class="event-card">
+                <img class="event-card__img" src="../assets/event2.png" alt="evento">
+                <div class="event-card__txt">
+                    <p class="event-card__title">Magicfest Washington</p>
+                    <p class="event-card__subtitle">Come to visit our booth from 25 to 28 July!</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="newsletter">
+            <p class="newsletter__title">Join the community</p>
+            <p class="newsletter__body">Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                 Morbi et nisl hendrerit, aliquet mi sed, scelerisque tortor.
+                 Aliquam eu scelerisque quam, ac tristique dolor. 
+                 Aliquam nulla risus, fermentum feugiat tortor quis, facilisis cursus arcu.
+                 Sed eu purus placerat, aliquet augue nec, molestie felis. Fusce porta.
+            </p>
+
+            <div class="email-bar">
+                <input class="email-bar__txt" type="email" placeholder="Email address">
+                <button class="input-btn input-btn--email" type="submit">
+                    <img src="../assets/send.svg" alt="send">
+                </button>
+            </div>
+        </section>
+
     </main>
+
+    <footer>
+        <section class="top-footer">
+            <div class="newsletter-footer">
+                <p class="newsletter__title">Join the community</p>
+                <div class="email-bar email-bar--footer">
+                    <input class="email-bar__txt" type="email" placeholder="Email address">
+                    <button class="input-btn input-btn--email" type="submit">
+                        <img src="../assets/send.svg" alt="send">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="link-list-container">
+                <ul class="footer-list">
+                    <li class="footer-list_link">About us</li>
+                    <li class="footer-list_link">Blog</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list_link">FAQ</li>
+                    <li class="footer-list_link">Support</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list_link">Costs and shipping methods</li>
+                    <li class="footer-list_link">Return or replace items</li>
+                </ul>
+        </section>
+
+        <section class="bottom-footer">
+            <div class="bottom-footer__link">
+                <p>© 2019 ninety five llc  All Rights Reserved</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+
+            <div class="social-icons">
+                <img src="../assets/fb.png" alt="facebook">
+                <img src="../assets/inst.png" alt="instagram">
+                <img src="../assets/twt.png" alt="twitter">
+            </div>
+        </section>
+        
+    </footer>
+
 </body>
 </html>
