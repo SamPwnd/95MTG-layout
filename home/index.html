@@ -9,7 +9,11 @@
 </head>
 <body>
     <header>
+        <img class="header__burger-icon" src="../assets/burger.png" alt="burger-menu">
+
         <img class="header__logo" src="../assets/logo-nero-1.png" alt="logo">
+
+        <img class="header__cart-icon" src="../assets/cart.png" alt="cart">
 
         <div class="header__search-bar">
             <select class="search-bar__filter" name="filter-search" >
@@ -21,12 +25,13 @@
             </button>
         </div>
 
+
         <div class="header__login">
             <p class="login__text">Hello, Sign in</p>
             <a class="login__link" href="#">Account</a>
         </div>
 
-        <img class="header__cart-icon" src="../assets/cart.png" alt="cart">
+        
     </header>
 
     <nav>
@@ -168,7 +173,7 @@
         </div>
 
         <div class="section__head">
-            <p class="section__title">ARTICLES</p>
+            <p class="section__title section__title--uppercase">Articles</p>
             <a class="section__link" href="#">See all</a>
         </div>
         <section class="articles-section">
@@ -251,12 +256,12 @@
             </div>
         </section>
 
-        <div class="section__head">
+        <div class="section__head section__head--hidden">
             <p class="section__title">Evidence</p>
             <a class="section__link" href="#">See all</a>
         </div>
 
-        <section class="cards-section">
+        <section class="cards-section cards-section--hidden">
             <div class="card">
                 <div class="card-img">
                     <img src="../assets/cards1.png" alt="carta">
@@ -373,7 +378,7 @@
         </div>
         <section class="sets-section">
 
-            <div class="main-set-card">
+            <div class="main-set-card main-set-card--hidden">
                 <div class="set-card">
                     <img class="set-card__img" src="../assets/set1.png" alt="set image">
                     <div class="set-card__body">
@@ -387,6 +392,17 @@
                 </div>
             </div>
             <div class="set-cards">
+                <div class="set-card set-card--hidden">
+                    <img class="set-card__img" src="../assets/set1.png" alt="set image">
+                    <div class="set-card__body">
+                        <img src="../assets/icon-set1.svg" alt="icon-set">
+                        <div class="set-card__txt">
+                            <p class="set-card__title">Core Set 2020</p>
+                            <p class="set-card__date">JULY, 2019</p>
+                        </div>
+                    </div>
+                </div>
+
                 <div class="set-card">
                     <img class="set-card__img" src="../assets/set2.png" alt="set image">
                     <div class="set-card__body">
