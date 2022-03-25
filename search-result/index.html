@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Search results</title>
+</head>
+<body>
+    <header>
+        <img class="header__burger-icon" src="../assets/burger.png" alt="burger-menu">
+
+        <img class="header__logo" src="../assets/logo-nero-1.png" alt="logo">
+
+        <img class="header__cart-icon" src="../assets/cart.png" alt="cart">
+
+        <div class="header__search-bar">
+            <select class="search-bar__filter" name="filter-search" >
+                <option value="All categories" selected>All categories</option>
+            </select>
+            <input class="search-bar__text" type="text" name="search" id="search" placeholder="Search">
+            <button class="input-btn" type="submit">
+                <img src="../assets/search.png" alt="search-icon">
+            </button>
+        </div>
+
+
+        <div class="header__login">
+            <p class="login__text">Hello, Sign in</p>
+            <a class="login__link" href="#">Account</a>
+        </div>
+
+        
+    </header>
+
+    <nav>
+        <a class="nav__link nav__link--first" href="#">CARDS</a>
+        <a class="nav__link" href="#">BOOSTERS</a>
+        <a class="nav__link" href="#">BOOSTER BOXES</a>
+        <a class="nav__link" href="#">SEALED PRODUCTS</a>
+        <a class="nav__link" href="#">ACCESSORIES</a>
+    </nav>
+
+    <main>
+        <img class="landing-bg" src="../assets/landing-background.png" alt="background">
+        <div class="page-path">
+            <a class="page-path__link" href="../home/index.html">Home |</a>
+            <p class="page-path__p">Search results “ca” </p>
+        </div>
+
+        <h1>SEARCH RESULT “ca” </h1>
+
+        <section class="results-container">
+            <div class="results-filter">
+                <div class="results-filter__header">1500 results found</div>
+
+                <div class="filter-selector">
+                    <p class="filter-title">ORDER BY</p>
+                    <select class="filter-selector__select" name="price">
+                        <option value="price up">Price <p>( increasing )</p></option>
+                    </select>
+                </div>
+
+                <div class="filter-selector">
+                    <p class="filter-title">CATEGORIES</p>
+                    <select class="filter-selector__select" name="cat">
+                        <option value="all">All categories</option>
+                    </select>
+                </div>
+
+                <div class="filter-selector">
+                    <p class="filter-title">EXPANSION</p>
+                    <select class="filter-selector__select" name="expansion">
+                        <option value="all">All expansion</option>
+                    </select>
+                </div>
+
+                <div class="filter-language">
+                    <p class="filter-title">LANGUAGES</p>
+                    
+                    <div class="filter-language__checkbox">
+                        <div class="lang-check">
+                            <input type="checkbox" id="lang1">
+                            <label for="lang1">ITA</label>
+                        </div>
+                        
+                        <div class="lang-check">
+                            <input type="checkbox" id="lang2">
+                            <label for="lang2">ENG</label>
+                        </div>
+                        
+                        <div class="lang-check">
+                            <input type="checkbox" id="lang3">
+                            <label for="lang3">JAP</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="filter-slider">
+                    <p class="filter-title">PRICE</p>
+                    <img src="../assets/slider regular.png" alt="slider">
+                    <div>
+                        <p>50 $</p>
+                        <p>350 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="results-list">
+
+            </div>
+        </section>
+    </main>
+</body>
+</html>
