@@ -967,6 +967,9 @@ footer .bottom-footer .social-icons img {
   main .card-lang .card-lang__box--fill {
     background-color: #77B032;
   }
+  main .buy-section {
+    display: initial;
+  }
   main .buy-section .buy-section-card {
     display: -webkit-box;
     display: -ms-flexbox;
