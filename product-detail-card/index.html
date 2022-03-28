@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Product detail card</title>
+</head>
+<body>
+    <header>
+        <img class="header__burger-icon" src="../assets/burger.png" alt="burger-menu">
+
+        <img class="header__logo" src="../assets/logo-nero-1.png" alt="logo">
+
+        <img class="header__cart-icon" src="../assets/cart.png" alt="cart">
+
+        <div class="header__search-bar">
+            <select class="search-bar__filter" name="filter-search" >
+                <option value="All categories" selected>All categories</option>
+            </select>
+            <input class="search-bar__text" type="text" name="search" id="search" placeholder="Search">
+            <button class="input-btn" type="submit">
+                <img src="../assets/search.png" alt="search-icon">
+            </button>
+        </div>
+
+
+        <div class="header__login">
+            <p class="login__text">Hello, Sign in</p>
+            <a class="login__link" href="#">Account</a>
+        </div>
+
+    </header>
+
+    <nav>
+        <a class="nav__link nav__link--first" href="#">CARDS</a>
+        <a class="nav__link" href="#">BOOSTERS</a>
+        <a class="nav__link" href="#">BOOSTER BOXES</a>
+        <a class="nav__link" href="#">SEALED PRODUCTS</a>
+        <a class="nav__link" href="#">ACCESSORIES</a>
+    </nav>
+
+    <main>
+        <img class="landing-bg" src="../assets/landing-background2.png" alt="background">
+        <img class="landing-bg-mobile" src="../assets/landing-background2-mobile.png" alt="background">
+        <div class="page-path">
+            <a class="page-path__link" href="../home/index.html">Home | Cards |</a>
+            <p class="page-path__p">Gideon Blackblade (WAR) </p>
+        </div>
+        <div class="main__gradient"></div>
+
+        <section class="card-view">
+            <div class="card-view-detail">
+                <p class="card-view-detail__type">CARDS</p>
+                <h1 class="card-view-detail__title card-view-detail__title--desktop">Gideon Blackblade: war of the spark (ENG)</h1>
+                <h1 class="card-view-detail__title card-view-detail__title--mobile ">Gideon Blackblade</h1>
+                <div class="card-stats-container">
+                    <img src="../assets/expansion2.png" alt="icona">
+                    <p class="card-stats__content">War Of The Spark (WAR)</p>
+                </div>
+                <div class="card-view-detail-buy">
+                    <p class="card-view-detail-buy__price">14.15 $</p>
+                    <div class="card-view-detail-quantity">
+                        <label for="quantity">Quantity</label>
+                        <select class="card-view-detail__select" id="quantity">
+                            <option value="1">1</option>
+                            <option value="5">5</option>
+                            <option value="10" selected>10</option>
+                        </select>
+                        <p class="card-view-detail-quantity__available">( 10 available )</p>
+                    </div>
+                </div>
+                
+                <button class="card-view-detail__btn">ADD TO CART</button>
+                <div class="card-view-detail__icons">
+                    <div class="card-view__favorite-icon">
+                        <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                        <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                    </div>
+                    <div class="card-view-check-icon">
+                        <img class="card-view-check-icon__full" src="../assets/done.png" alt="spunta">
+                    </div>
+                </div>
+                <div class="card-view-detail__price-mobile">From <p>14.15 $</p></div>
+            </div>
+            <div class="card-view-img">
+                <img class="card-view-img__card" src="..//assets/card-detail.png" alt="card">
+                <img class="card-view-img__reverse-icon" src="../assets/reverse-icon.png" alt="icona">
+            </div>
+        </section>
+
+        <div class="card-section__header">Stats
+            <img src="../assets/baseline-keyboard_arrow_left-24px.png" alt="up arrow">
+        </div>
+        <section class="card-stats-section">
+            <div class="card-stats card-stats--mobile-hidden">
+                <p class="card-stats__name">Card name</p>
+                <p class="card-stats__content">Gideon Blacblade</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Types</p>
+                <p class="card-stats__content">Legendary Planeswalker</p>
+            </div>
+
+            <div class="card-stats card-stats--mobile-hidden">
+                <p class="card-stats__name">Expansion</p>
+                <div class="card-stats-container">
+                    <img src="../assets/expansion1.png" alt="icona">
+                    <p class="card-stats__content">War Of The Spark</p>
+                </div>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Rarity</p>
+                <p class="card-stats__content">Mythic Rare</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Mana Cost</p>
+                <div class="card-stats-container">
+                    <img src="../assets/mana1.png" alt="mana icon">
+                    <img src="../assets/mana2.png" alt="mana icon">
+                    <img src="../assets/mana2.png" alt="mana icon">
+                </div>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name card-stats__name--desktop">Converted mana cost</p>
+                <p class="card-stats__name card-stats__name--mobile">CMC</p>
+                <p class="card-stats__content">3</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Card number</p>
+                <p class="card-stats__content">13</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Artist</p>
+                <p class="card-stats__content">Viktor Titov</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">All sets</p>
+                <p class="card-stats__content">---</p>
+            </div>
+
+            <div class="card-stats">
+                <p class="card-stats__name">Loyalty</p>
+                <p class="card-stats__content">4</p>
+            </div>
+
+            <div class="card-stats card-stats--large card-stats--mobile-hidden">
+                <p class="card-stats__name">Card text</p>
+                <p class="card-stats__content card-stats__content--white-space ">As long as it's your turn, Gideon Blackblade is a 4/4 Human Soldier creature with indestructible that's still a planeswalker.
+                    Prevent all damage that would be dealt to Gideon Blackblade during your turn.
+                    +1: Up to one other target creature you control gains your choice of vigilance, lifelink, or indestructible until end of turn.
+                    −6: Exile target nonland permanent.</p>
+            </div>
+        </section>
+
+        <div class="card-section__header">1500 results found
+            <img src="../assets/filter3.png" alt="filter">
+        </div>
+        <section class="buy-section">
+            <div class="buy-section-card buy-section-card--bg1">
+                <div class="buy-section-card__left">
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box card-lang__box--fill">NM</div>
+                        <img src="../assets/star.png" alt="star">
+                    </div>
+                    <p>In stock: 999</p>
+                    <p class="buy-section-card__price">$9999,99</p>
+                </div>
+
+                <div class="buy-section-card__right">
+                    <select  class="buy-section__select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4" selected>4</option>
+                    </select>
+                    <button class="buy-section__btn buy-section__btn--disabled" disabled>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-section-card buy-section-card--bg2">
+                <div class="buy-section-card__left">
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box card-lang__box--fill">NM</div>
+                        <img src="../assets/star.png" alt="star">
+                    </div>
+                    <p>In stock: 999</p>
+                    <p class="buy-section-card__price">$9999,99</p>
+                </div>
+
+                <div class="buy-section-card__right">
+                    <select  class="buy-section__select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4" selected>4</option>
+                    </select>
+                    <button class="buy-section__btn">ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-section-card buy-section-card--bg1">
+                <div class="buy-section-card__left">
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box card-lang__box--fill">NM</div>
+                        <img src="../assets/star.png" alt="star">
+                    </div>
+                    <p>In stock: 999</p>
+                    <p class="buy-section-card__price">$9999,99</p>
+                </div>
+
+                <div class="buy-section-card__right">
+                    <select  class="buy-section__select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4" selected>4</option>
+                    </select>
+                    <button class="buy-section__btn  buy-section__btn--disabled" disabled>ADD TO CART</button>
+                </div>
+            </div>
+
+            <div class="buy-section-card buy-section-card--bg2">
+                <div class="buy-section-card__left">
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box card-lang__box--fill">NM</div>
+                        <img src="../assets/star.png" alt="star">
+                    </div>
+                    <p>In stock: 999</p>
+                    <p class="buy-section-card__price">$9999,99</p>
+                </div>
+
+                <div class="buy-section-card__right">
+                    <select  class="buy-section__select">
+                        <option value="0">0</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4" selected>4</option>
+                    </select>
+                    <button class="buy-section__btn">ADD TO CART</button>
+                </div>
+            </div>
+            
+        </section>
+
+        <div class="section__head">
+            <p class="section__title">Related</p>
+        </div>
+        <section class="cards-section">
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards1.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <div class="card-text__title-container">
+                        <p class="card-text__title">Gideon Blackblade: war of the spark (ENG)</p>
+                        <img class="card-text__set-image" src="../assets/Group 182.png" alt="icona">
+                    </div>
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box">NM</div>
+                        <div class="card-lang__box">JP</div>
+                        <div class="card-lang__box">+4</div>
+                    </div>
+                    <p class="card-text__type">CARDS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>
+                        <div class="card-footer__check-icon">
+                            <img class="card-footer__check-full-icon" src="../assets/done.png" alt="spunta">
+                        </div>
+                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards2.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster: war of the spark (ITA)</p>
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box">NM</div>
+                        <div class="card-lang__box">JP</div>
+                        <div class="card-lang__box">+4</div>
+                    </div>
+                    <p class="card-text__type">BOOSTERS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards3.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Booster Box: war of the spark (ENG)</p>
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box">NM</div>
+                        <div class="card-lang__box">JP</div>
+                        <div class="card-lang__box">+4</div>
+                    </div>
+                    <p class="card-text__type">BOOSTER BOXES</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="favorite-icon__border" src="../assets/favorite_border_white_24dp.svg" alt="cuore">
+                            <img class="favorite-icon__full-white" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-img">
+                    <img src="../assets/cards4.png" alt="carta">
+                </div>
+
+                <div class="card-text">
+                    <p class="card-text__title">Duel Deck: Elves Vs. Inventors (ITA)</p>
+                    <div class="card-lang">
+                        <div class="card-lang__box">IT</div>
+                        <div class="card-lang__box">NM</div>
+                        <div class="card-lang__box">JP</div>
+                        <div class="card-lang__box">+4</div>
+                    </div>
+                    <p class="card-text__type">DECKS</p>
+                </div>
+
+                <div class="card-footer">
+                    <div class="card-footer__icons">
+                        <div class="card-footer__favorite-icon">
+                            <img class="check-icon_full check-icon_full--selected" src="../assets/favorite_white_24dp.svg" alt="favorite">
+                        </div>                        
+                    </div>
+
+                    <div class="card-footer__price">
+                        <p class="card__old-price">20,15 $</p>
+                        <p class="card__new-price">14,15 $</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <section class="top-footer">
+            <div class="newsletter-footer">
+                <p class="newsletter__title">Join the community</p>
+                <div class="email-bar email-bar--footer">
+                    <input class="email-bar__txt" type="email" placeholder="Email address">
+                    <button class="input-btn input-btn--email" type="submit">
+                        <img src="../assets/send.svg" alt="send">
+                    </button>
+                </div>
+            </div>
+    
+            <div class="link-list-container">
+                <ul class="footer-list">
+                    <li class="footer-list_link">About us</li>
+                    <li class="footer-list_link">Blog</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list_link">FAQ</li>
+                    <li class="footer-list_link">Support</li>
+                </ul>
+                <ul class="footer-list">
+                    <li class="footer-list_link">Costs and shipping methods</li>
+                    <li class="footer-list_link">Return or replace items</li>
+                </ul>
+        </section>
+
+        <section class="bottom-footer">
+            <div class="bottom-footer__link">
+                <p>© 2019 ninety five llc  All Rights Reserved</p>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and Conditions</a>
+            </div>
+
+            <div class="social-icons">
+                <img src="../assets/fb.png" alt="facebook">
+                <img src="../assets/inst.png" alt="instagram">
+                <img src="../assets/twt.png" alt="twitter">
+            </div>
+        </section>
+        
+    </footer>
+</body>
+</html>
