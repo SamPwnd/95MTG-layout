@@ -751,11 +751,15 @@ footer {
     nav {
         padding-left: 15px;
         align-items: center;
-        overflow: hidden;
+        overflow: scroll;
 
         .nav__link {
             white-space: nowrap;
         }
+    }
+
+    nav::-webkit-scrollbar {
+        display: none;
     }
 
     aside {
